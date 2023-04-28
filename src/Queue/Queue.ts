@@ -27,6 +27,7 @@ export class Queue<T> {
       return;
     }
 
+    // this works because head and tail share the same reference
     this.tail.next = n;
     this.tail = n;
   }

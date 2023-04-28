@@ -1,6 +1,6 @@
 {
   "name": "@gabrielrq/dsjs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Common data structures",
   "type": "module",
   "main": "./dist/index.js",
