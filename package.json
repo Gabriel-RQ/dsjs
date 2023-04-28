@@ -1,17 +1,16 @@
 {
-  "name": "dsjs",
-  "version": "1.0.0",
+  "name": "@gabrielrq/dsjs",
+  "version": "1.0.1",
   "description": "Common data structures",
   "type": "module",
-  "main": "index.js",
-  "types": "@types",
+  "main": "./dist/index.js",
   "scripts": {
     "build": "npx tsc",
     "dev": "node ./dist/index.js"
   },
   "keywords": [
-    "data structures",
-    "algorithms"
+    "Data Structures",
+    "Algorithms"
   ],
   "author": "Gabriel RQ",
   "license": "ISC",

@@ -1,5 +1,8 @@
-import { Node } from "../util.js";
+import { Node } from "../Node/node.js";
 
+/**
+ * A Linked List is a simple dynamic data structure that can handle data in nodes.
+ */
 export class LinkedList<T> {
   private head: Node<T> | null;
   public length = 0;
@@ -95,7 +98,7 @@ export class LinkedList<T> {
   }
 
   /**
-   * Clears the linked list.
+   * Clears the Linked List.
    */
   clear() {
     this.head = null;
